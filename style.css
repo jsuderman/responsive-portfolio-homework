@@ -1,0 +1,11 @@
+header {
+
+    position: absolute;
+    width: 100%;
+    
+    }
+.navbar-brand 
+{
+    background-color: blue;
+    color: white;
+}
