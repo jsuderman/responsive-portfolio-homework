@@ -1,6 +1,8 @@
 .body {
-    Background-image: url(css/images/background.jpeg);
+    Background-image: url(background.jpeg);
     background-size: cover;
+    
+
 
 }
 
@@ -23,6 +25,13 @@ header {
     font-size: 20px;
 }
 
+.navbar  {
+    /* flex-direction: column; */
+
+
+}
+
+
 .pic1 {
 
     width: 250px;
@@ -33,19 +42,27 @@ header {
     Margin: 15px;
     padding: 25px;
     
+    
+
 }
 
 .card {
     text-align: justify;
+
+
 }
 
 .card h-100{
-    background-image: url(css/images/background.jpeg) ;
+    background-image: url(background.jpeg) ;
+
+
 }
 
 .card-title {
     text-align: center;
     font-family: 'Audiowide', cursive; 
-   
+    background-color: black
     
+
+
 }
