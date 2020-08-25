@@ -1,7 +1,6 @@
 .body {
-    Background-image: url(css/images/background.jpeg);
-    background-size: cover;
-
+    /* Background-image: url(css/images/background.jpg);
+    /* background-size: cover; */ */
 }
 
 
@@ -11,11 +10,16 @@ header {
     width: 100%;
     
 }
+
+.navbar {
+    background-color: black;
+}
 .navbar-brand {
 
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
     color: white;
+    opacity: .8;
 }
 
 .nav-link {
@@ -25,22 +29,19 @@ header {
 
 .pic1 {
 
-    width: 250px;
-    length: 250px;
+    width: 225px;
+    
 }
 
 .container {
-    Margin: 15px;
-    padding: 25px;
+  
     
 }
 
 .card {
     text-align: justify;
-}
-
-.card h-100{
-    background-image: url(css/images/background.jpeg) ;
+    align-content: center;
+   
 }
 
 .card-title {
@@ -49,3 +50,84 @@ header {
    
     
 }
+
+/* .nav-link-right {
+    justify-content: right;
+} */
+
+.link {
+   border: 1px;
+   border-radius: 4px;
+   padding: 5px;
+   width: 50px;
+   justify-items: right;
+}
+
+.link:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.twitter {
+    border: 1px;
+    border-radius: 1px;
+    padding: 4px;
+    width: 62px;
+    justify-items: right;
+}
+
+.twitter:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.email {
+    border: 1px;
+    border-radius: 1px;
+    padding: 4px;
+    width: 50px;
+    justify-items: right;
+}
+
+.email:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+ 
+.github {
+    border: 1px;
+    border-radius: 1px;
+    padding: 4px;
+    width: 50px;
+    justify-items: right;
+}
+
+.github:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    text-align: center;
+}
+
+
+.row {
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+    
+}
+
+.list {
+    list-style-type: none;
+}
+
+.contacts {
+    list-style-type: none;
+}
+
